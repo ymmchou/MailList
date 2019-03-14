@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videodetelet" parent="view_renderer">
+	<controller id="jfrmdeteletFrame" type="窗口">
+		<method name="title" para="' 删除信息 '"></method>
+		<method name="size" para="255,200"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmdeteletFrame" id="lblnum" type="标签"
+			para="'请输入你要删除的用户编号：'">
+		<method name="font" para="#selfFont"></method>
+		<method name="foreground" para="#topicColor"></method>
+		<method name="size" para="150,18"></method>
+		<method name="=位置" para="50,20"></method>
+	</controller>
+	<controller parent="jfrmdeteletFrame" id="txtide" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="160,22"></method>
+		<method name="=位置" para="40,50"></method>
+	</controller>
+	<controller parent="jfrmdeteletFrame" id="btncomfire" type="按钮"
+			para="'确认'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="45,30"></method>
+		<method name="=位置" para="40,100"></method>
+	</controller>
+	<controller parent="jfrmdeteletFrame" id="btnout" type="按钮"
+			para="'取消'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="45,30"></method>
+		<method name="=位置" para="150,100"></method>
+		<method name="enabled" para="true"></method>
+	</controller>
+</view>

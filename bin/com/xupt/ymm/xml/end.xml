@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videoend" parent="view_renderer">
+	<controller id="jfrmEndViewLoginFrame" type="窗口">
+		<method name="title" para="' 通讯录管理系统 '"></method>
+		<method name="size" para="500,450"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/lib/爱.jfif'"></method>
+	</controller>
+</view>
+

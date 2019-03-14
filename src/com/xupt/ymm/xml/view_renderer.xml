@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="view_renderer">
+	<controller id="normalFont" type="字体" para="'宋体',=普通字体,16"></controller>
+	<controller id ="selfFont" type="字体" para="'微软雅黑', =普通字体,14 "></controller>
+	<controller id="topicFont" type="字体" para="'微软雅黑',=加粗字体,36"></controller>
+	<controller id="normalColor" type="颜色" para="0,0,0"></controller>
+	<controller id="topicColor" type="颜色" para="8,28,245"></controller>
+	<controller id="alertColor" type="颜色" para="240,64,5"></controller>
+</view>
+	

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videointer" parent="view_renderer">
+	<controller id="jfrminsterFrame" type="窗口">
+		<method name="title" para="' 增加信息 '"></method>
+		<method name="size" para="350,300"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lblnum" type="标签"
+			para="'编  号 '">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="30,40"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtnum" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="80,40"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lblname" type="标签"
+			para="'姓  名'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="30,75"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtname" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="80,75"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lblname" type="标签"
+			para="'性  别'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="30,110"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtsex" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="80,110"></method>
+	</controller>
+	、<controller parent="jfrminsterFrame" id="lblbirthy" type="标签"
+			para="'身份证号'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,30"></method>
+		<method name="=位置" para="30,145"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtbirthy" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="80,145"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lbltelphone" type="标签"
+			para="'电 话 '">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="180,40"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtphone" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="220,40"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lblqq" type="标签"
+			para="'qq 号'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="180,75"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtqq" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="220,75"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lblmail" type="标签"
+			para="'邮箱号'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="180,110"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtmail" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="220,110"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="lbladdress" type="标签"
+			para="'住  址'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="50,18"></method>
+		<method name="=位置" para="180,145"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="txtaddress" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="70,22"></method>
+		<method name="=位置" para="220,145"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="btncomfire" type="按钮"
+			para="'确认'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="80,190"></method>
+	</controller>
+	<controller parent="jfrminsterFrame" id="btnout" type="按钮"
+			para="'退出'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="220,190"></method>
+	</controller>
+</view>

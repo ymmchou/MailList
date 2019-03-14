@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videoLogin" parent="view_renderer">
+	<controller id="jfrmViewLoginFrame" type="窗口">
+		<method name="title" para="' 通讯录管理系统 '"></method>
+		<method name="size" para="350,210"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/哲.jfif'"></method>
+	</controller>
+	
+	<controller parent="jfrmViewLoginFrame" id="jlblTopic" type="标签" 
+			para="'欢迎进入管理员界面！'">
+		<method name="font" para="#topicFont"></method>
+		<method name="foreground" para="#topicColor"></method>
+		<method name="size" para="340,40"></method>
+		<method name="=位置" para="5,0"></method>
+		<method name="=水平调整" para="=居中对齐"></method>
+	</controller>
+	
+	<controller parent="jfrmViewLoginFrame" id="lblname" type="标签"
+			para="'账号'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="34,18"></method>
+		<method name="=位置" para="30,60"></method>
+	</controller>
+	<controller parent="jfrmViewLoginFrame" id="txtname" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="220,22"></method>
+		<method name="=位置" para="70,58"></method>
+	</controller>
+	<controller parent="jfrmViewLoginFrame" id="lblIdWarning" type="标签"
+			para="'含非法字符'">
+		<method name="font" para="#aFont"></method>
+		<method name="foreground" para="#warnningColor"></method>
+		<method name="size" para="60,16"></method>
+		<method name="=位置" para="240,60"></method>
+		<method name="visible" para="false"></method>
+	</controller>
+	
+	<controller parent="jfrmViewLoginFrame" id="lblpassword" type="标签"
+			para="'密码'">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="34,18"></method>
+		<method name="=位置" para="30,90"></method>
+	</controller>
+	<controller parent="jfrmViewLoginFrame" id="pswPassword" type="密码框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="220,22"></method>
+		<method name="=位置" para="70,88"></method>
+	</controller>
+	<controller parent="jfrmViewLoginFrame" id="lblPasswordWarning" type="标签"
+			para="'非法格式'">
+		<method name="font" para="#aFont"></method>
+		<method name="foreground" para="#warnningColor"></method>
+		<method name="size" para="60,16"></method>
+		<method name="=位置" para="240,88"></method>
+		<method name="visible" para="false"></method>
+	</controller>
+	
+	<controller parent="jfrmViewLoginFrame" id="btnLogin" type="按钮"
+			para="'登录'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="100,125"></method>
+		<method name="enabled" para="false"></method>
+	</controller>
+	<controller parent="jfrmViewLoginFrame" id="btnother" type="按钮"
+			para="'注册'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="180,125"></method>
+	</controller>
+</view>
+

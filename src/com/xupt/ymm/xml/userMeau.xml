@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videomenu" parent="view_renderer">
+	<controller id="jfrmusermeauFrame" type="窗口">
+		<method name="title" para="' 主菜单 '"></method>
+		<method name="size" para="260,230"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmusermeauFrame" id="btnupdate" type="按钮"
+			para="'修改信息'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="20,50"></method>
+	</controller>
+	<controller parent="jfrmusermeauFrame" id="btnselect" type="按钮"
+			para="'查询信息'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="150,50"></method>
+	</controller>
+	<controller parent="jfrmusermeauFrame" id="btnout" type="按钮"
+			para="'修改密码'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="20,125"></method>
+	</controller>
+	<controller parent="jfrmusermeauFrame" id="btnoot" type="按钮"
+			para="'退出'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="150,125"></method>
+	</controller>		
+</view>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videoselect" parent="view_renderer">
+	<controller id="jfrmuserselectFrame" type="窗口">
+		<method name="title" para="' 查询信息 '"></method>
+		<method name="size" para="200,220"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="lblidselectid" type="标签"
+			para="'id查询：'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="120,30"></method>
+		<method name="=位置" para="20,30"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="txtid" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="100,22"></method>
+		<method name="=位置" para="75,30"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="lblidselectname" type="标签"
+			para="'姓名查询：'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="110,30"></method>
+		<method name="=位置" para="20,60"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="txtname" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="100,22"></method>
+		<method name="=位置" para="75,60"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="lblidselecttelphone" type="标签"
+			para="'电话号查询：'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="110,30"></method>
+		<method name="=位置" para="20,90"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="txttelphone" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="100,22"></method>
+		<method name="=位置" para="75,90"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="btncomfore" type="按钮"
+			para="'确定'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="45,30"></method>
+		<method name="=位置" para="30,135"></method>
+	</controller>
+	<controller parent="jfrmuserselectFrame" id="btnout" type="按钮"
+			para="'取消'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="45,30"></method>
+		<method name="=位置" para="125,135"></method>
+	</controller>
+</view>

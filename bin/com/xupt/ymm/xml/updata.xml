@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videoupdata" parent="view_renderer">
+	<controller id="jfrmupdataFrame" type="窗口">
+		<method name="title" para="' 修改信息 '"></method>
+		<method name="size" para="300,300"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="lblnum" type="标签"
+			para="'请选择输入编号： '">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="120,22"></method>
+		<method name="=位置" para="40,40"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="txtid" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="120,22"></method>
+		<method name="=位置" para="150,40"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="lblname" type="标签"
+			para="'姓       名： '">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="120,22"></method>
+		<method name="=位置" para="40,80"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="txtname" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="120,22"></method>
+		<method name="=位置" para="150,80"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="lbltelphone" type="标签"
+			para="'电   话   号： '">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="120,22"></method>
+		<method name="=位置" para="40,140"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="txtptelhone" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="120,22"></method>
+		<method name="=位置" para="150,140"></method>
+	</controller>
+	
+	<controller parent="jfrmupdataFrame" id="btncomfire" type="按钮"
+			para="'确认'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="55,30"></method>
+		<method name="=位置" para="50,200"></method>
+	</controller>
+	<controller parent="jfrmupdataFrame" id="btnout" type="按钮"
+			para="'退出'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="55,30"></method>
+		<method name="=位置" para="175,200"></method>
+	</controller>
+</view>

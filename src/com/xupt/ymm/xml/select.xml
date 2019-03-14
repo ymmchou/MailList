@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videoselect" parent="view_renderer">
+	<controller id="jfrmselectFrame" type="窗口">
+		<method name="title" para="' 查询信息 '"></method>
+		<method name="size" para="180,200"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmselectFrame" id="btnidselectid" type="按钮"
+			para="'用id查询'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="120,30"></method>
+		<method name="=位置" para="20,30"></method>
+	</controller>
+	<controller parent="jfrmselectFrame" id="btnallmess" type="按钮"
+			para="'查询所有的用户'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="120,30"></method>
+		<method name="=位置" para="20,80"></method>
+	</controller>
+	<controller parent="jfrmselectFrame" id="btnout" type="按钮"
+			para="'取消'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="45,30"></method>
+		<method name="=位置" para="50,120"></method>
+	</controller>
+</view>

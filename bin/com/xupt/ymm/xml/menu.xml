@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videomenu" parent="view_renderer">
+	<controller id="jfrmmeauFrame" type="窗口">
+		<method name="title" para="' 主菜单 '"></method>
+		<method name="size" para="260,300"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmmeauFrame" id="btninter" type="按钮"
+			para="'添加信息'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="20,35"></method>
+	</controller>
+	<controller parent="jfrmmeauFrame" id="btndetelet" type="按钮"
+			para="'删除信息'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="150,35"></method>
+	</controller>
+	<controller parent="jfrmmeauFrame" id="btnupdate" type="按钮"
+			para="'修改信息'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="20,80"></method>
+	</controller>
+	<controller parent="jfrmmeauFrame" id="btnselect" type="按钮"
+			para="'查询信息'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="150,80"></method>
+	</controller>
+	<controller parent="jfrmmeauFrame" id="btnout" type="按钮"
+			para="'注销'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="20,125"></method>
+	</controller>
+	<controller parent="jfrmmeauFrame" id="btnoot" type="按钮"
+			para="'退出'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="150,125"></method>
+	</controller>	
+	<controller parent="jfrmmeauFrame" id="btnuppass" type="按钮"
+			para="'修改密码'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="80,180"></method>
+	</controller>	
+</view>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="videoupPass" parent="view_renderer">
+	<controller id="jfrmupPassFrame" type="窗口">
+		<method name="title" para="' 修改密码 '"></method>
+		<method name="size" para="300,220"></method>
+		<method name="=关闭时动作" para="=关闭时无动作"></method>
+		<method name="toScreenCenter"></method>
+		<method name="logo" para="'/resource/timg.jfif'"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="lbloldPassword" type="标签"
+			para="'请输入编号   ：'">
+		<method name="font" para="#aFont"></method>
+		<method name="foreground" para="#aColor"></method>
+		<method name="cursor" para="#handCursor"></method>
+		<method name="size" para="66,18"></method>
+		<method name="=位置" para="45,20"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="pswoldPassword" type="文本框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="100,22"></method>
+		<method name="=位置" para="120,20"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="lblnewPassword" type="标签"
+			para="'请输入新密码：'">
+		<method name="font" para="#aFont"></method>
+		<method name="foreground" para="#aColor"></method>
+		<method name="cursor" para="#handCursor"></method>
+		<method name="size" para="80,18"></method>
+		<method name="=位置" para="45,60"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="pswnewPassword" type="密码框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="99,22"></method>
+		<method name="=位置" para="120,60"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="lblotherPassword" type="标签"
+			para="'请确认新密码：'">
+		<method name="font" para="#aFont"></method>
+		<method name="foreground" para="#aColor"></method>
+		<method name="cursor" para="#handCursor"></method>
+		<method name="size" para="80,18"></method>
+		<method name="=位置" para="45,100"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="pswotherPassword" type="密码框">
+		<method name="font" para="#normalFont"></method>
+		<method name="size" para="99,22"></method>
+		<method name="=位置" para="120,100"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="btncomfire" type="按钮"
+			para="'确认'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="45,135"></method>
+	</controller>
+	<controller parent="jfrmupPassFrame" id="btnout" type="按钮"
+			para="'取消'">
+		<method name="font" para="#buttonFont"></method>
+		<method name="size" para="65,30"></method>
+		<method name="=位置" para="150,135"></method>
+		<method name="enabled" para="false"></method>
+	</controller>
+</view>
